@@ -1,11 +1,17 @@
-/* ==UserStyle==
+/* ==YatFanLan==
 @name           Hide the QQ Space option on the Friends Information screen
 @description    隐藏好友信息界面的QQ空间选项
 @preprocessor   transitio
 @version        0.1.0
-@homepageURL    Hide-the-QQ-Space-option-on-the-Friends-Information-screen
+@homepageURL    https://github.com/YatFanLan/Hide-the-QQ-Space-option-on-the-Friends-Information-screen
 @author         YatFanLan
-==/UserStyle== */
+ 
+==/YatFanLan== */
 [data-v-f65e0060].qq-zone{
+	display: none;
+}
+
+/*以下代码适用于 9.9.15-28060版本*/
+[data-v-5013490b].qq-zone{
 	display: none;
 }
